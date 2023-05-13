@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  padding: 16px;
+  background-image: linear-gradient(
+    0deg,
+    rgb(217, 175, 217) 0%,
+    rgb(151, 217, 225) 100%
+  );
+  width: 100%;
+}
+.header__right {
+  display: block;
+  float: right;
+  height: 50px;
+  width: 135px;
+  padding-top: 27px;
+  padding-right: 8px;
+}
+span {
+  color: #920101;
+}
+.header-logo {
+  width: 60px;
+  height: 78px;
+  overflow: clip;
+  cursor: pointer;
+}
+.header__link--item {
+  font-weight: 700;
+  color: #920101;
+  text-decoration: none;
+}
+.header__link--item:hover {
+  border-bottom: 2px solid #920101;
+  width: auto;
+  height: auto;
+}
+.navigation {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding: 2rem;
+  background-image: linear-gradient(
+    45deg,
+    rgb(251, 218, 97) 0%,
+    rgb(255, 90, 205) 100%
+  );
+  z-index: 1;
+  display: block;
+  height: 86px;
+  width: 100%;
+}
+
+.navigation__link {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 13px;
+  font-family: "DynaPuff", cursive;
+  cursor: pointer;
+  color: black;
+  font-weight: 400;
+}
+.navigation__link:hover {
+  color: white;
+}
+.image {
+  width: 100%;
+  overflow: clip;
+  max-height: calc(100vh - 204px);
+}
+.content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.content__title {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-shadow: black 0px 2px 4px;
+}
+.content__text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: red;
+  text-shadow: grey 0px 2px 4px;
+}
+.content__button {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(217, 175, 217);
+  font-weight: 700;
+}
+.content__button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.main {
+  padding: 2rem;
+  text-align: justify;
+}
+.slack-icon {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: red;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  /* padding-top: 0.16rem; */
+}
+.slack-icon i {
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400
+}
+
+.slack-icon:hover {
+  cursor: pointer;
+  border: 1px solid red;
+  outline: 2px inset crimson;
+  outline-offset: 5px;
+  transition: all .5s;
+  background-image: linear-gradient(rgb(255, 0, 0) rgba(255, 0, 0 , 1)) ;
+  opacity: .8;
