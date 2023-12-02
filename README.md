@@ -32,7 +32,7 @@ Project aims to create a website page.
 
 Build a Landing same as in the following link;
 
-[Project](https://practice-cw.netlify.app/)
+[Project](https://murttkapln.github.io/Web-Page-Design/)
 
 ### At the end of the project, following topics are to be covered;
 
