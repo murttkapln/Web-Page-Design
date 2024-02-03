@@ -76,7 +76,6 @@ Build a Landing same as in the following link;
 
 ## Resources
 
--  [Images](./img)
+-  [Images](https://github.com/murttkapln/Web-Page-Design/tree/master/images)
 
 
-<p align="center"> <strong>⌛ Happy Coding  ✍ </strong></p>
