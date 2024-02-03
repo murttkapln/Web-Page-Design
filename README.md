@@ -2,6 +2,8 @@
 
 # Project-004 : Website Page Design
 
+[Live Link](https://murttkapln.github.io/Web-Page-Design/)
+
 
 ## Description
 
@@ -31,8 +33,6 @@ Project aims to create a website page.
 ## Objective
 
 Build a Landing same as in the following link;
-
-[Project](https://murttkapln.github.io/Web-Page-Design/)
 
 ### At the end of the project, following topics are to be covered;
 
