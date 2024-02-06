@@ -18,8 +18,8 @@ Project aims to create a website page.
 ```
 004-website-page-design (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)          
-|----images            # Given to the students (Images of the project)   
+|----readme.md                   
+|----images              
 |----solution
         |----index.html  
         |----style.css   
