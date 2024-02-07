@@ -1,6 +1,6 @@
 
 
-# Project-004 : Website Page Design
+# Website Page Design
 
 [Live Link](https://murttkapln.github.io/Web-Page-Design/)
 
